@@ -10,7 +10,7 @@ export { setLogger } from './logger'
 export { notifyManager } from './notifyManager'
 export { focusManager } from './focusManager'
 export { onlineManager } from './onlineManager'
-export { hashQueryKey, isError } from './utils'
+export { hashQueryKey, hashQueryKeyByOptions, isError } from './utils'
 export { isCancelledError } from './retryer'
 export { dehydrate, hydrate } from './hydration'
 
